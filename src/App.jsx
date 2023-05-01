@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Feedbacks, Navbar, StarsCanvas } from './components';
+import { About, Contact, Feedbacks, Emergency, Navbar, StarsCanvas } from './components';
 import Mission from "./components/Mission";
 import Strategy from "./components/Strategy";
 
@@ -10,6 +10,7 @@ const App = () => {
         <div className="bg-cover bg-no-repeat bg-center">
           <Navbar />
         </div>
+        <Emergency />
         <About />
         <Mission />
         <Strategy />

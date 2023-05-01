@@ -18,11 +18,11 @@ const About = () => {
       <motion.dev variants={textVariant()}>
 
         <h2 className={styles.sectionHeadText}>Overview.</h2>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubTextWhite}>Introduction</p>
       </motion.dev>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mb-10'
+        className='mt-4 text-white text-[17px] max-w-3xl leading-[30px] mb-10'
       >
         The non-profit organization I want to propose is called Illinois Mental Health Support. It
         provides online mental health support to all college students in Illinois. We realize that stress,
@@ -31,10 +31,10 @@ const About = () => {
         platform for them to seek help privately and have an opportunity to connect to others.
       </motion.p>
       
-      <p className={styles.sectionSubText}>Brief Bio</p>
+      <p className={styles.sectionSubTextWhite}>Brief Bio</p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-white text-[17px] max-w-3xl leading-[30px]'
       >
         As a student at the University of Illinois, Urbana Champaign, I often face much stress, especially
         during the final weeks. I can still remember I even suffer from insomnia due to stress, last
@@ -50,3 +50,4 @@ const About = () => {
 }
 
 export default SectionWrapper(About, "about")
+
