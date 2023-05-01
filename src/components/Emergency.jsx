@@ -41,9 +41,10 @@ const Emergency = () => {
           such as counseling services, academic advisors, and study groups. Don't be afraid to seek help if you need it.</li>
         <li className='mt-2'>Talk to someone: It can be helpful to talk to someone about how you're feeling. This could be a friend, family member,
           or a mental health professional. Sharing your concerns and feelings can help you feel less alone and can give you a fresh perspective on your situation.</li>
-        <li className='mt-2'>Take breaks and practice self-care: It's important to take breaks from studying and give yourself time to relax
+        <li className='mt-2 mb-10'>Take breaks and practice self-care: It's important to take breaks from studying and give yourself time to relax
           and recharge. This could mean taking a walk, listening to music, or practicing meditation or yoga. Whatever helps you to de-stress and feel better.</li>
       </div>
+      <p className='text-[18px]'>If you have any other questions, feel free to <a href='#contact' className='font-bold underline italic'>Contact us</a> ! We are always ready to help you!</p>
     </div>
   )
 }
