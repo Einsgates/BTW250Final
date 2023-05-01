@@ -1,3 +1,3 @@
-Visit this:
-
-https://jiayuan-hong.com/
+To view this:
+`npm install -force`
+`npm run dev`
